@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from 'carbon-components-react';
 import LocaleModal from './LocaleModal/LocaleModal';
-import { Masthead } from 'ibm-dotcom-library-react';
+import { Masthead } from '@ibmdotcom/react';
 
 class App extends Component {
   constructor(props) {
