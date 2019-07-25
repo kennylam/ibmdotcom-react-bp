@@ -40,7 +40,7 @@ yarn start
 ```
 
 ## Unlink
-To unlink, run the following in the IBM.com Library folder (`/ibm-dotcom-library/`)
+To unlink, run the following in the IBM.com Library folder (`ibm-dotcom-library/packages/react`)
 ```
-yarn unlink @ibmdotcom/react
+yarn unlink
 ```
