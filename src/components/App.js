@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button } from 'carbon-components-react';
+import DotcomMasthead from './DotcomMasthead/DotcomMasthead';
 import LocaleModal from './LocaleModal/LocaleModal';
 import { Masthead } from '@ibmdotcom/react';
 
@@ -30,10 +31,6 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Masthead
-          type="standard"
-        />
-        <p>hello world!</p>
         <Button
           onClick={this.openLocaleModal}
         >
