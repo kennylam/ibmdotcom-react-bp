@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Button } from 'carbon-components-react';
 import DotcomMasthead from './DotcomMasthead/DotcomMasthead';
 import LocaleModal from './LocaleModal/LocaleModal';
-import { Masthead } from '@ibmdotcom/react';
 
 class App extends Component {
   constructor(props) {
@@ -31,6 +30,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <DotcomMasthead />
         <Button
           onClick={this.openLocaleModal}
         >

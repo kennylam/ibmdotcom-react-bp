@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {
   Header,
   HeaderName,
@@ -7,21 +6,28 @@ import {
   HeaderMenu,
   HeaderMenuItem
 } from 'carbon-components-react/lib/components/UIShell';
+import Icon from '../components/Icon';
+import mastheadLinks from './DotcomMastheadL0';
 
 const DotcomMasthead = () => (
   <div className="container">
-
     <Header aria-label="IBM">
       <HeaderName href="#" prefix="IBM"></HeaderName>
       <HeaderNavigation aria-label="IBM">
-        <HeaderMenuItem href="#">Link 1</HeaderMenuItem>
-        <HeaderMenuItem href="#">Link 2</HeaderMenuItem>
-        <HeaderMenuItem href="#">Link 3</HeaderMenuItem>
-        <HeaderMenu aria-label="Link 4" menuLinkName="Link 4">
-          <HeaderMenuItem href="#">Sublink 1</HeaderMenuItem>
-          <HeaderMenuItem href="#">Sublink 2</HeaderMenuItem>
-          <HeaderMenuItem href="#">Sublink 3</HeaderMenuItem>
-        </HeaderMenu>
+
+        {mastheadLinks.map(item => {
+          if (item.subnav) {
+            return (
+              <HeaderMenu aria-label={item.name} menuLinkName={item.name}>
+                <HeaderMenuItem href={item.path}>{item.name}</HeaderMenuItem>
+              </HeaderMenu>
+            );
+          } else {
+            return <HeaderMenuItem href={item.path}>{item.name}</HeaderMenuItem>
+          }
+          }
+        )}
+
       </HeaderNavigation>
     </Header>
   </div>

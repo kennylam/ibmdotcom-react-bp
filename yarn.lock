@@ -982,10 +982,10 @@
   dependencies:
     "@hapi/hoek" "8.x.x"
 
-"@ibmdotcom/react@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@ibmdotcom/react/-/react-0.1.0.tgz#65d8d068cf5064dd33001f37033fa3597b4b711a"
-  integrity sha512-6yPc3aQyr0hnE8j9rt9xQg1SEPMIbuKaBYHJrk6M00Yn6Mq+iOTGnqtXRbalbZ0Zu4yAIDeEyYoVVjmLEFA0fA==
+"@ibmdotcom/react@^0.2.0-rc.0":
+  version "0.2.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@ibmdotcom/react/-/react-0.2.0-rc.0.tgz#c1d712dfe07d5318b8eab876a5571c769786c25f"
+  integrity sha512-vKYl4vDG2s6/Q0O7ljbd5p4GDaO+juJxtxxGjbDrYNwMp31u8i6AWXa4D2iNXxZixaEUl7JvqUPl+FD7ituCQQ==
   dependencies:
     "@carbon/icons-react" "10.3.0"
     classnames "2.2.6"
@@ -999,6 +999,11 @@
     react-is "^16.8.6"
     warning "^3.0.0"
     window-or-global "^1.0.1"
+
+"@ibmdotcom/styles@^0.2.0-rc.0":
+  version "0.2.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@ibmdotcom/styles/-/styles-0.2.0-rc.0.tgz#bb626d1f7477d59ec2f3641626d22ec1a0ca0004"
+  integrity sha512-5PParLbQlkp+m/cRIhHzBEfHnJduUagj1XYp+9IdVqwEYC9ggM2joXfyTa4rhyvMjbk/b2h94bAMSLHn6tF1WA==
 
 "@jest/console@^24.7.1":
   version "24.7.1"

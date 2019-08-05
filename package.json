@@ -5,7 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@ibmdotcom/react": "^0.1.0",
+    "@ibmdotcom/react": "^0.2.0-rc.0",
+    "@ibmdotcom/styles": "^0.2.0-rc.0",
     "carbon-components": "^10.3.2",
     "carbon-components-react": "^7.3.2",
     "cross-spawn": "^6.0.5",
