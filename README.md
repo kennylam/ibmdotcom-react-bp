@@ -31,7 +31,7 @@ yarn
 
 Now add your locally linked packages
 ```
-yarn add @ibmdotcom/react
+yarn link @ibmdotcom/react
 ```
 
 Run the app
