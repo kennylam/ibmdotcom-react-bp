@@ -1,16 +1,21 @@
 import React from 'react';
 import {
+  Search20,
+  UserProfile20
+} from '@carbon/icons-react';
+import {
   Header,
   HeaderName,
   HeaderNavigation,
   HeaderMenu,
-  HeaderMenuItem
+  HeaderMenuItem,
+  HeaderGlobalBar,
+  HeaderGlobalAction
 } from 'carbon-components-react/lib/components/UIShell';
-import Icon from '../components/Icon';
 import mastheadLinks from './DotcomMastheadL0';
 
 const DotcomMasthead = () => (
-  <div className="container">
+  <div className="container bx--header">
     <Header aria-label="IBM">
       <HeaderName href="#" prefix="IBM"></HeaderName>
       <HeaderNavigation aria-label="IBM">
@@ -19,7 +24,12 @@ const DotcomMasthead = () => (
           if (item.subnav) {
             return (
               <HeaderMenu aria-label={item.name} menuLinkName={item.name}>
-                <HeaderMenuItem href={item.path}>{item.name}</HeaderMenuItem>
+                {item.subnav.map(subnav => {
+                  return (
+                    <HeaderMenuItem href={subnav.path}>{subnav.name}</HeaderMenuItem>                    
+                  );
+                })
+                }
               </HeaderMenu>
             );
           } else {
@@ -27,11 +37,21 @@ const DotcomMasthead = () => (
           }
           }
         )}
-
       </HeaderNavigation>
+      <HeaderGlobalBar>
+        <HeaderGlobalAction
+          aria-label="Search"
+        >
+          <Search20 />
+        </HeaderGlobalAction>
+        <HeaderGlobalAction
+          aria-label="User profile"
+        >
+          <UserProfile20 />
+        </HeaderGlobalAction>
+      </HeaderGlobalBar>
     </Header>
   </div>
 );
 
 export default DotcomMasthead;
-

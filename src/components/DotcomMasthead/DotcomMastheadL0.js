@@ -39,6 +39,6 @@ const mastheadLinks = [
       }
     ]
   }
-]
+];
 
 module.exports = mastheadLinks;
