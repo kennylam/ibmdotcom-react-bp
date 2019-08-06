@@ -994,10 +994,10 @@
   dependencies:
     "@hapi/hoek" "8.x.x"
 
-"@ibmdotcom/react@^0.2.0-rc.0":
-  version "0.2.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@ibmdotcom/react/-/react-0.2.0-rc.0.tgz#c1d712dfe07d5318b8eab876a5571c769786c25f"
-  integrity sha512-vKYl4vDG2s6/Q0O7ljbd5p4GDaO+juJxtxxGjbDrYNwMp31u8i6AWXa4D2iNXxZixaEUl7JvqUPl+FD7ituCQQ==
+"@ibmdotcom/react@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@ibmdotcom/react/-/react-0.2.0.tgz#3a260371768d6f38496150de093f4e55fca7de44"
+  integrity sha512-kXSxWxKzTrE8Sg/skoIIasYMPuIpAwLXU5njLp4ewSMzpeSrpGHLd3c0j+U0g+bHbKo9YVpsPUWhkJ254VcECA==
   dependencies:
     "@carbon/icons-react" "10.3.0"
     classnames "2.2.6"
@@ -1012,10 +1012,10 @@
     warning "^3.0.0"
     window-or-global "^1.0.1"
 
-"@ibmdotcom/styles@^0.2.0-rc.0":
-  version "0.2.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@ibmdotcom/styles/-/styles-0.2.0-rc.0.tgz#bb626d1f7477d59ec2f3641626d22ec1a0ca0004"
-  integrity sha512-5PParLbQlkp+m/cRIhHzBEfHnJduUagj1XYp+9IdVqwEYC9ggM2joXfyTa4rhyvMjbk/b2h94bAMSLHn6tF1WA==
+"@ibmdotcom/styles@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@ibmdotcom/styles/-/styles-0.2.0.tgz#bb1edb3a9ef7f26dc688e06f8e13650e116506ac"
+  integrity sha512-twj+ev9weAsEur8y39sGhgreMX8GixaQ+RJjBjP56zznEtF9Fk24zxJKC3zweo6PrjygmjtAPVOkffdVodQg2g==
 
 "@jest/console@^24.7.1":
   version "24.7.1"
