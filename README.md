@@ -1,5 +1,7 @@
-# Boilerplate React App
-> Boilerplate React application for component development using [IBM.com](https://github.com/carbon-design-system/ibm-dotcom-library/tree/master/packages/react) and [Carbon](https://github.com/carbon-design-system/carbon/tree/master/packages/react) React packages.
+# ibm-dotcom-library-dev
+> Test application for IBM.com Library development
+
+Based on [https://github.com/kennylam/ibmdotcom-react-bp](https://github.com/kennylam/ibmdotcom-react-bp)
 
 ## Installation for local development
 
