@@ -5,10 +5,10 @@ Based on [https://github.com/kennylam/ibmdotcom-react-bp](https://github.com/ken
 
 ## Installation for local development
 
-Fork and clone the [IBM.com Library](https://github.com/carbon-design-system/ibm-dotcom-library), then link the package in order to install locally into other projects.
+Fork and clone the [IBM.com Library](https://github.com/carbon-design-system/ibm-dotcom-library), then link the package you want in order to install locally into other projects.
 ```
 git clone https://github.com/YOUR-GITHUB/ibm-dotcom-library.git
-cd ibm-dotcom-library/packages/react
+cd ibm-dotcom-library/packages/<react, services, etc>
 yarn link
 ```
 
@@ -42,7 +42,7 @@ yarn start
 ```
 
 ## Unlink
-To unlink, run the following in the IBM.com Library folder (`ibm-dotcom-library/packages/react`)
+To unlink, run the following in the IBM.com Library folder (`ibm-dotcom-library/packages/<react, services, etc>`)
 ```
 yarn unlink
 ```
