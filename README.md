@@ -1,12 +1,12 @@
-# Boilerplate React App
-> Boilerplate React application for component development using [IBM.com](https://github.com/carbon-design-system/ibm-dotcom-library/tree/master/packages/react) and [Carbon](https://github.com/carbon-design-system/carbon/tree/master/packages/react) React packages.
+# IBM.com Library development app
+> Based on [https://github.com/kennylam/ibmdotcom-react-bp](https://github.com/kennylam/ibmdotcom-react-bp)
 
 ## Installation for local development
 
-Fork and clone the [IBM.com Library](https://github.com/carbon-design-system/ibm-dotcom-library), then link the package in order to install locally into other projects.
+Fork and clone the [IBM.com Library](https://github.com/carbon-design-system/ibm-dotcom-library), then link the package you want in order to install locally into other projects.
 ```
 git clone https://github.com/YOUR-GITHUB/ibm-dotcom-library.git
-cd ibm-dotcom-library/packages/react
+cd ibm-dotcom-library/packages/<react, services, etc>
 yarn link
 ```
 
@@ -31,7 +31,7 @@ yarn
 
 Now add your locally linked packages
 ```
-yarn add @ibmdotcom/react
+yarn link @ibmdotcom/react
 ```
 
 Run the app
@@ -40,7 +40,7 @@ yarn start
 ```
 
 ## Unlink
-To unlink, run the following in the IBM.com Library folder (`ibm-dotcom-library/packages/react`)
+To unlink, run the following in the IBM.com Library folder (`ibm-dotcom-library/packages/<react, services, etc>`)
 ```
 yarn unlink
 ```
