@@ -3,6 +3,7 @@ import {
   Search20,
   UserProfile20
 } from '@carbon/icons-react';
+import { ReactComponent as Logo } from '../Icons/svg/ibm-logo.svg';
 import {
   Header,
   HeaderName,
@@ -15,9 +16,9 @@ import {
 import mastheadLinks from './DotcomMastheadL0';
 
 const DotcomMasthead = () => (
-  <div className="container bx--header">
+  <div className="container">
     <Header aria-label="IBM">
-      <HeaderName href="#" prefix="IBM"></HeaderName>
+      <Logo />
       <HeaderNavigation aria-label="IBM">
 
         {mastheadLinks.map(item => {
