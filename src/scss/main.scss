@@ -1,4 +1,6 @@
 // carbon components
-@import 'node_modules/carbon-components/scss/components/button/button';
-@import 'node_modules/carbon-components/scss/components/modal/modal';
+@import '~carbon-components/scss/components/button/button';
+@import '~carbon-components/scss/components/ui-shell/header';
+@import '~carbon-components/scss/components/modal/modal';
 
+@import '~@ibmdotcom/styles/scss/components/masthead/masthead';
