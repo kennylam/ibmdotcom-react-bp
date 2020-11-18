@@ -40,7 +40,7 @@
     "jest-fetch-mock": "^2.1.2",
     "pre-commit": "^1.2.2",
     "rimraf": "^2.6.3",
-    "semantic-release": "^15.13.18"
+    "semantic-release": "^17.2.3"
   },
   "browserslist": {
     "production": [
